@@ -16,4 +16,7 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
+/**
+ * clase para el controlador de los departamentos
+ */
 Route::resource('departamentos', 'DepartamentosController');
